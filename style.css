@@ -55,7 +55,7 @@ body {
     gap: 10px;
     flex-wrap: wrap;
  }
-@media (max-width:991px){
+@media (max-width:676px){
     .main{
         flex-direction: column;
     }
