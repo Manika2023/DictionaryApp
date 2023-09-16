@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dictionary App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Dictionary App</h1>
+    <input type="text" id="wordInput" placeholder="Enter a word">
+    <button class="btn" onclick="searchWord()">Search</button>
+
+    <div class="main">
+    <div id="meanings" class="definition-box box">
+        <h2>Meaning:</h2>
+        <p id="meaning"></p>
+    </div>
+
+    <div id="synonyms" class="definition-box box">
+        <h2>Synonyms:</h2>
+        <p id="synonym"></p>
+    </div>
+
+    <div id="antonyms" class="definition-box box">
+        <h2>Antonyms:</h2>
+        <p id="antonym"></p>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
