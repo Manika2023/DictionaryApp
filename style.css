@@ -33,6 +33,7 @@ body {
  .box{
     min-height: 300px;
     width: 300px;
+      
  }
  .definition-box {
      border: 1px solid #ccc;
@@ -53,10 +54,12 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    flex-wrap: wrap;
  }
 @media (max-width:676px){
     .main{
         flex-direction: column;
+        flex-wrap:wrap;
+          align-items: center;
+    justify-content:center;
     }
  }
